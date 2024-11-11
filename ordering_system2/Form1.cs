@@ -163,11 +163,12 @@ namespace ordering_system2
 
         private void label2_Click(object sender, EventArgs e)
         {
+           
             // Hide the current form
             this.Hide();
 
             // Create and show the new form
-            items newForm = new items();
+            equipments newForm = new equipments();
             newForm.Show();
 
             // Attach an event handler to handle closing the new form and re-showing the old form
